@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 28px;
+    margin-right: 34px;
+}
+
+#logo img {
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar {
+    
+    background-color: rgba(31, 41, 62, 0.937);
+    padding: 17px 18px;
+    font-family: 'Permanent Marker', cursive;
+    
+
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 13px 34px;
+
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+    padding-bottom: 25px;
+    color: rgb(249, 242, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 53px;
+    font-weight: bolder;
+    align-items: center;
+    background: center / cover no-repeat url(../static/bg.jpg);
+    height: 380px;
+    background-color: red;
+    font-family: 'Lobster', cursive;
+
+
+
+
+
+}
+
+#introSection div.small {
+    font-size: 34px;
+    padding: 5px;
+}
+
+#ourMission {
+    height: 300px;
+    width: 85%;
+    margin: auto;
+    /* background-color: rgb(216, 148, 45); */
+
+
+}
+
+#ourMission h2 {
+    text-align: center;
+    padding-top: 14px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 15px 22px;
+    height: 190px;
+    /* background-color: rgb(216 224 241 / 94%); */
+}
+
+.card h3 {
+    text-align: center;
+    margin: 0px 10px;
+    margin-top: 11px;
+    font-size: 20px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 110px;
+    padding: 0px 14px;
+    margin: 3px 8px
+}
+.card-img img{
+    height: inherit;
+    
+}
+.card-content{
+    padding: 0px 8px;
+}
+.card-content p{
+    font-size: 17px;
+}
+
+#sponsorSection {
+    height: 300px;
+    background-color: rgb(187, 201, 228);
+
+}
+
+#sponsorSection h2 {
+    text-align: center;
+    padding-top: 14px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+
+
+}
+#sponsors{
+    height: 143px;
+    /* max-width: 869px; */
+    margin: 21px auto;
+    text-align: center;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer {
+    height: 60px;
+    background-color: #1e364b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+
+}
